@@ -1,0 +1,32 @@
+<%-include partials/header.ejs%>
+
+<%include partials/main_nav.ejs%>
+
+<%if (title=='Home'){ %>
+  <% include contents/home.ejs %>
+<%} else if (title=='About') { %>
+  <% include contents/about.ejs %>
+<%} else if (title=='Projects') { %>
+  <% include contents/projects.ejs %>
+<%} else if (title=='Services') { %>
+  <% include contents/services.ejs %>
+<%} else if (title=='Contact') { %>
+  <% include contents/contact.ejs %>
+<% } %>
+
+<%include partials/bottom_nav.ejs%>
+<%include partials/footer.ejs%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
